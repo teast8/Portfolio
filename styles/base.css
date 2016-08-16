@@ -1,44 +1,78 @@
-.pull-left {
-  float: left;
-}
 
-.pull-right {
-  float: right;
-}
+body {
+   background-color: #374252;
+   color: white;
+   font-family: "Questrial", sans-serif;
+   position: relative;
+ }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+ a {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+ }
 
-.heading-group-h1 {
-  max-width: 80%;
-}
+ .logo {
+   height: 10%;
+   width: 10%;
+   border-radius: 50%;
+   display: inline;
+   margin: 2%;
+ }
 
-#about {
-  display: none;
-}
+ header {
+   position: relative;
+   width: 100%;
+ }
 
-#filters select {
-  width: 90%;
-  margin: .2em 5%;
-}
+ header h1 {
+   /*font-family: "Futura", sans-serif;*/
+   font-family: "Questrial", sans-serif;
+   font-size: 30px;
+   display: inline;
+   position: absolute;
+   top: 40%;
+   left: 15%;
+ }
 
-/* DONE: Add styles so the filters lay out better on desktop. */
-@media only screen and (min-width: 640px) {
-  .heading-group-h1 {
-    padding: .1em .1em .1em 2em;
-    float: none;
-  }
+ nav ul {
+   display: none;
+ }
 
-  #filters select {
-    width: 15em;
-    margin: .2em .2em;
-  }
+ main{
+   width: 300px;
+ }
 
-  #filters li {
-    width: 20em;
-    display: inline;
-  }
-}
+ .gallery {
+   display: block;
+   margin: 0 auto;
+   padding: 10%;
+ }
+
+ #last {
+   margin-bottom: 10%;
+ }
+
+ footer {
+   position: fixed;
+   width: 100%;
+   height: 5%;
+   bottom: 0;
+   background-color: #000000;
+   clear: both;
+ }
+
+ @media only screen and (min-width: 750px){
+   nav ul {
+     display: inline;
+     position: absolute;
+     top: 40%;
+     right: 5%;
+   }
+   nav ul li {
+     font-family: "Questrial", sans-serif;
+     display: inline;
+     float: right;
+     padding: 10px;
+   }
+ }
