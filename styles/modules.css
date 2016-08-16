@@ -1,0 +1,36 @@
+.site-header {
+    background: #FFEAAA;
+ +  position: relative;
+  }
+
+  .icon-menu {
+
+     float: right;
+     font-size: 30px;
+     margin: 30px;
+  }
+
+  .main-nav {
+    
+ @media only screen and (min-width: 375px) {
+   .icon-menu {
+     display: none;
+   }
+   .main-nav ul {
+     display: inline;
+     padding: 15px;
+     float: right;
+     margin: 0 auto;
+     position: absolute;
+     top: 20%;
+     left: 60%;
+   }
+   .main-nav ul li {
+     display: inline;
+     font-size: 18px;
+   }
+
+   .main-nav:hover ul {
+     display: inline;
+   }
+ }
