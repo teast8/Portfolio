@@ -1,6 +1,6 @@
 .site-header {
     background: #FF0000;
- +  position: relative;
+    position: relative;
   }
 
   .icon-menu {

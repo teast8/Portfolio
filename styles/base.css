@@ -29,10 +29,12 @@ body {
    /*font-family: "Futura", sans-serif;*/
    font-family: "Questrial", sans-serif;
    font-size: 30px;
+   text-align: center;
    display: inline;
    position: absolute;
    top: 40%;
    left: 15%;
+
  }
 
  nav ul {
@@ -76,3 +78,6 @@ body {
      padding: 10px;
    }
  }
+ img  {
+    border-radius: 150%;
+  }
